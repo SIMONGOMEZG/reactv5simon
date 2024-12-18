@@ -13,9 +13,9 @@ const ItemListContainer = ({ greeting }) => {
     const fetchProducts = async () => {
       setLoading(true);
       try {
-        const productsRef = collection(db, "products"); // Referencia a la colección
+        const productsRef = collection(db, "products");
         const q = categoryId
-          ? query(productsRef, where("category", "==", categoryId)) // Filtra por categoría
+          ? query(productsRef, where("category", "==", categoryId))
           : productsRef;
 
         const querySnapshot = await getDocs(q);
