@@ -1,0 +1,163 @@
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #e599f7;
+}
+
+.navbar {
+  background-color: #f8f9fa; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #9f7aea;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e599f7;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #a3c4f3;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #91b3e6;
+}
+
+.btn-warning {
+  background-color: #fddbb0;
+  color: #333;
+}
+
+.btn-warning:hover {
+  background-color: #fcbf79;
+}
+
+.btn-danger {
+  background-color: #f8a5c2;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #f48fb1;
+}
+
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.card-body {
+  padding: 1rem;
+  background-color: #fdf8fd;
+}
+
+.card-title {
+  color: #9f7aea;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.container {
+  padding: 2rem 1rem;
+}
+
+.cart-item {
+  background-color: #fafafa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item h5 {
+  color: #6c757d;
+  margin: 0;
+}
+
+.cart-item p {
+  margin: 0;
+  color: #868e96;
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.spinner-border {
+  color: #9f7aea;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+  }
+}
